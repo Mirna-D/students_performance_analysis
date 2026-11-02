@@ -25,11 +25,8 @@ An exploratory data analysis (EDA) case study analyzing the impact of socioecono
 
 Understanding the underlying drivers of student performance allows educational institutions to allocate resources effectively and implement targeted intervention programs. 
 
-This project aims to answer:
-1. **Does test preparation course completion significantly boost exam scores?**
-2. **How strong is the correlation between socioeconomic status (proxy: lunch type) and academic success?**
-3. **What is the combined impact of course preparation and socioeconomic status on average scores?**
-4. **How does parental educational background influence student achievement?**
+This project aims to:
+**analyzing the factors that influence students' academic performance.**
 
 ---
 
@@ -114,13 +111,9 @@ Free/Reduced + None      [=================] 58.9
 
 ```text
 ├── data/
-│   ├── raw_students_performance.csv       # Original dataset from Kaggle
-│   └── cleaned_students_performance.xlsx   # Processed dataset with Average Score formula
+│   ├── (RAW) StudentsPerformance.xlsx       # Original dataset from Kaggle
 ├── analysis/
-│   └── student_performance_pivot.xlsx      # Pivot tables & aggregation sheets
-├── presentation/
-│   ├── Student_Performance_Analysis.pdf    # Presentation slide deck
-│   └── screenshots/                        # Portfolio slide images
+│   └── (DA) StudentPerformance.csv      # Pivot tables & aggregation sheets
 └── README.md                               # Project documentation
 ```
 
@@ -130,17 +123,16 @@ Free/Reduced + None      [=================] 58.9
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/Mirna-D/student-performance-analysis.git
+   git clone https://github.com/Mirna-D/student_performance_analysis.git
    ```
-2. Open `analysis/student_performance_pivot.xlsx` in Microsoft Excel or Google Sheets to inspect the pivot tables and charts.
+2. Open `analysis/(DA) StudentsPerformance` in Microsoft Excel or Google Sheets to inspect the pivot tables and charts.
 
 ---
 
 ## 👤 Author & Contact
 
-**Mirnawati Darwis, S.Kom.**
+**Mirnawati Darwis**
 * **Role:** Data Analyst & Data Scientist
-* **Education:** Informatics Engineering, Universitas Hasanuddin (GPA 3.90 / 4.00)
 * **LinkedIn:** [linkedin.com/in/mrnaad](https://linkedin.com/in/mrnaad)
 * **GitHub:** [@Mirna-D](https://github.com/Mirna-D)
 * **Email:** meetellmee@gmail.com
